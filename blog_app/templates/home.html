@@ -57,7 +57,8 @@
         <hr class="my-4 ">
         <h4 class="display-5" align=" center ">Skills</h4>
         <hr class="my-4 ">
-        <div class="wrapper" value="Python ">
+        <div class="wrapper" >
+            <input type="button" class="btn btn-dark btn-sm mb-2 " value="Python">
             <input type="button" class="btn btn-dark btn-sm mb-2 " value="Django ">
             <input type="button" class="btn btn-dark btn-sm mb-2" value="Django Rest Framework">
             <input type="button" class="btn btn-dark btn-sm mb-2" value="HTML ">
@@ -112,20 +113,19 @@
 
     <!--projects Jumbotron-->
 
-    <div class="jumbotron jumbotron " id="project">
+    <div class="jumbotron jumbotron " id="project" align="center">
         <h1 class="display-4 "> Projects</h1>
         <hr>
-        <hr> {%for i in data%}
-        <ul>
-
+        <hr> 
+        <!-- <ul>
             <li> Dhun Music Web app </li>
             <li> Hospital Management </li>
             <li> Bus Ticket Fare Calculator</li>
             <li> E-commerce project
             </li>
         </ul>
-        {%endfor%}
-        <hr class="mx-4">
+         -->
+        
         <div align=" center ">
             <div align="center"> <img src="{%static 'images/music.jpg'%} " alt="1 " class="border border-info " height="40% " width="60% ">
             <br>
@@ -164,7 +164,7 @@
             <details>
                 <summary><b> About e-commerce project</b></summary>
                 <p>A basic e-commerce project with cateogry and sub-cateogry, for customers and admin both, customer can buy items,and a admin/subadmin or sailer can add products and cateogries to just by login with their credentials.</p><br><b>Used techs.: </b>Html,
-                Css,Bootstrap & Django
+                Css,Bootstrap ,python & Django
 
             </details><br></div>
 
@@ -200,8 +200,8 @@
 
     <!--contacts Jumbotron-->
 
-    <div class="jumbotron jumbotron " id="contact">
-        <h1 class="display-4 ">Contact me</h1>
+    <div class="jumbotron jumbotron " id="contact" >
+        <h1 class="display-4 " align="center">Contact me</h1>
         <hr>
         <hr>
         <div class="container my-4">
