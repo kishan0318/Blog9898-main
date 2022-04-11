@@ -1,9 +1,9 @@
 {%extends 'master.html'%}{%block title%}About{%endblock%}{%block body%}{%load static %}
 <style>
-    .container {
+    .jumbotron {
         background-color: rgb(245, 248, 252);
         max-width: 70%;
-        height: 800px;
+        height: auto;
         margin: auto;
         padding: 30px
     }
@@ -11,6 +11,7 @@
     img {
         float: left;
         margin: 1%;
+        width: 200px;
     }
     
     h1 {
@@ -24,8 +25,8 @@
     <u>
  
         About me</u></h1>
-<div class="container">
-    <img src=" {%static 'images/one.jpeg'%} " alt="img" height="45%" width="35%">
+<div class="jumbotron">
+    <img src=" {%static 'images/one.jpeg'%} " alt="img" height="180px" width="50px">
 
     <p> Hey &#128075;Hello there! I am pleased that you’d like to know a little about me as you came here to read my self introduction hehe.. My name is Kishan, I was born & grew up in delhi, I graduated with the degree of Computer applications, after that
         I always try to work with my skills ,and try learn more and more from everywhere to grow my knowledge & skills. I would appreciate constructive criticism regarding my work because that will help me do better. Or if you just want to say hi or say
